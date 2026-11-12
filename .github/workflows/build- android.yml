@@ -19,8 +19,8 @@ jobs:
       - name: Configurar Java
         uses: action/setup-java@v4
         with:
-          java-version: 17
-          distrubuition: 'temurin'
+          java-version: "17"
+          distribution: 'temurin'
 
       - name: Instalar dependências
         run: npm install
